@@ -21,9 +21,10 @@ env/
 .DS_Store
 Thumbs.db
 
-# Archive — ignore everything EXCEPT staging (which must be committed for 2-phase pipeline)
+# Archive — keep staging (needed for two-phase pipeline), ignore everything else
 archive/*
 !archive/staging/
 !archive/staging/**
-archive/staging/**/charts/*.png
-!archive/staging/section1/charts/manifest.json
+
+# Ignore sent archives long-term
+archive/sent/
