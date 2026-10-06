@@ -9,7 +9,6 @@ print(">>> imports done")
 
 NARRATIVE_PATH = "section1/narrative.json"
 CONSOLIDATED_PATH = "section1/consolidated.json"
-AGGREGATED_PATH = "archive/data/aggregated.json"
 MANIFEST_PATH = "archive/staging/section1/charts/manifest.json"
 OUTPUT_DIR = "archive/staging/section1"
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, "email.html")
@@ -75,7 +74,6 @@ def format_paragraph(text):
 
 
 def build_chart_html(indicator_key):
-    """Return an inline CID-referenced chart image."""
     cid = "chart_" + indicator_key
     return (
         "<div style='margin:16px 0 8px 0;text-align:center;'>"
@@ -235,7 +233,37 @@ def main():
     manifest = load_json(MANIFEST_PATH)
     if not manifest:
         print(">>> WARN: no chart manifest - proceeding with text only")
-        manifest = {"top_3": [], "generated": []}
+        manifest = {"top_3": [], "generated": [], "scores": {}}
+
+    parsed = parse_narrative(narrative.get("narrative", ""))
+    fresh_keys = [item["key"] for item in parsed["fresh"]]
+    print(">>> FRESH indicators in narrative: " + str(fresh_keys))
+
+    manifest_top3 = manifest.get("top_3", [])
+    filtered_top3 = [k for k in manifest_top3 if k in fresh_keys]
+
+    if len(filtered_top3) < 3:
+        scores = manifest.get("scores", {})
+        generated = manifest.get("generated", [])
+        ranked = sorted(
+            [(k, scores.get(k, {}).get("total_score", 0)) for k in generated],
+            key=lambda x: x[1],
+            reverse=True,
+        )
+        for k, _ in ranked:
+            if k in filtered_top3:
+                continue
+            if k in fresh_keys:
+                filtered_top3.append(k)
+            if len(filtered_top3) >= 3:
+                break
+
+    print(">>> charts to embed after filter: " + str(filtered_top3))
+
+    manifest["top_3"] = filtered_top3
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
+    print(">>> manifest updated with filtered top_3")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -245,7 +273,6 @@ def main():
     print(">>> email HTML built (" + str(len(html)) + " characters)")
     print(">>> saved to " + OUTPUT_PATH)
 
-    parsed = parse_narrative(narrative.get("narrative", ""))
     save_metadata(parsed, manifest)
 
     print(">>> DONE")
