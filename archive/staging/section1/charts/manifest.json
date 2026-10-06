@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-10-06T23:55:16.014592",
+  "generated": [
+    "cpi",
+    "core_cpi",
+    "pce",
+    "nonfarm_payrolls",
+    "unemployment_rate",
+    "fed_funds_rate",
+    "treasury_10y",
+    "fed_balance_sheet",
+    "reverse_repo",
+    "manufacturing_employment",
+    "imf_world_gdp_growth"
+  ],
+  "top_3": [
+    "fed_balance_sheet",
+    "fed_funds_rate",
+    "reverse_repo"
+  ],
+  "scores": {
+    "cpi": {
+      "category_weight": 6,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.2,
+      "total_score": 20.2,
+      "age_days": 66
+    },
+    "core_cpi": {
+      "category_weight": 6,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.2,
+      "total_score": 20.2,
+      "age_days": 66
+    },
+    "pce": {
+      "category_weight": 6,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.2,
+      "total_score": 20.2,
+      "age_days": 66
+    },
+    "nonfarm_payrolls": {
+      "category_weight": 3,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.7,
+      "total_score": 11.7,
+      "age_days": 35
+    },
+    "unemployment_rate": {
+      "category_weight": 3,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.7,
+      "total_score": 11.7,
+      "age_days": 35
+    },
+    "fed_funds_rate": {
+      "category_weight": 5,
+      "magnitude_score": 0.0,
+      "freshness_score": 1.0,
+      "total_score": 16.0,
+      "age_days": 1
+    },
+    "treasury_10y": {
+      "category_weight": 5,
+      "magnitude_score": 0.7,
+      "freshness_score": 1.0,
+      "total_score": 17.4,
+      "age_days": 1
+    },
+    "fed_balance_sheet": {
+      "category_weight": 4,
+      "magnitude_score": 0.47,
+      "freshness_score": 0.7,
+      "total_score": 13.64,
+      "age_days": 6
+    },
+    "reverse_repo": {
+      "category_weight": 4,
+      "magnitude_score": 0.05,
+      "freshness_score": 0.7,
+      "total_score": 12.8,
+      "age_days": 4
+    },
+    "manufacturing_employment": {
+      "category_weight": 3,
+      "magnitude_score": 0.45,
+      "freshness_score": 0.7,
+      "total_score": 10.6,
+      "age_days": 35
+    },
+    "imf_world_gdp_growth": {
+      "category_weight": 1,
+      "magnitude_score": 1.0,
+      "freshness_score": 0.5,
+      "total_score": 5.5,
+      "age_days": 278
+    }
+  },
+  "categories": {
+    "cpi": "inflation",
+    "core_cpi": "inflation",
+    "pce": "inflation",
+    "nonfarm_payrolls": "labor",
+    "unemployment_rate": "labor",
+    "fed_funds_rate": "rates",
+    "treasury_10y": "rates",
+    "fed_balance_sheet": "liquidity",
+    "reverse_repo": "liquidity",
+    "manufacturing_employment": "labor",
+    "imf_world_gdp_growth": "global"
+  },
+  "skipped": [
+    {
+      "indicator": "gdp",
+      "reason": "period 188d old, exceeds window 180d"
+    },
+    {
+      "indicator": "bis_cross_border_credit",
+      "reason": "period 1009d old, exceeds window 180d"
+    },
+    {
+      "indicator": "ecb_deposit_rate",
+      "reason": "period 643d old, exceeds window 400d"
+    }
+  ]
+}
