@@ -1,0 +1,19 @@
+# Core data handling — pinned for Python 3.14 compatibility
+numpy>=2.0.0
+pandas>=2.3.3
+
+# HTTP requests
+requests>=2.31.0
+
+# Data source libraries
+fredapi>=0.5.2
+dbnomics>=1.2.0
+
+# Charts
+matplotlib>=3.11.1
+
+# Email
+jinja2>=3.1.0
+
+# DeepSeek (OpenAI-compatible)
+openai>=2.7.2

@@ -1,0 +1,151 @@
+{
+  "section": 1,
+  "section_name": "Macro & Policy",
+  "generated_at": "2026-10-05T14:00:00Z",
+  "period_covered": "Week ending October 5, 2026",
+  "indicators": {
+    "gdp": {
+      "source": "BEA",
+      "country": "US",
+      "value": 1.5,
+      "unit": "percent",
+      "period": "Q2 2026 (Third Estimate)",
+      "prior": 1.8,
+      "change": -0.3,
+      "release_date": "2026-09-26",
+      "note": "US real GDP grew at an annualized rate of 1.5 percent in Q2 2026, the third estimate revised down from 1.8 percent in the prior quarter."
+    },
+    "cpi": {
+      "source": "BLS",
+      "country": "US",
+      "value": 3.1,
+      "unit": "percent_yoy",
+      "period": "August 2026",
+      "prior": 3.2,
+      "change": -0.1,
+      "release_date": "2026-09-11",
+      "note": "US CPI rose 3.1 percent year-over-year in August 2026, with shelter and energy the primary contributors, easing from 3.2 percent in July."
+    },
+    "core_cpi": {
+      "source": "BLS",
+      "country": "US",
+      "value": 3.4,
+      "unit": "percent_yoy",
+      "period": "August 2026",
+      "prior": 3.5,
+      "change": -0.1,
+      "release_date": "2026-09-11",
+      "note": "US Core CPI rose 3.4 percent year-over-year in August 2026, still above the Fed's 2 percent target, easing from 3.5 percent in July."
+    },
+    "pce": {
+      "source": "BEA",
+      "country": "US",
+      "value": 2.9,
+      "unit": "percent_yoy",
+      "period": "August 2026",
+      "prior": 3.0,
+      "change": -0.1,
+      "release_date": "2026-09-26",
+      "note": "US PCE price index rose 2.9 percent year-over-year in August 2026, the Fed's preferred inflation gauge, easing from 3.0 percent in July."
+    },
+    "nonfarm_payrolls": {
+      "source": "BLS",
+      "country": "US",
+      "value": 142000,
+      "unit": "jobs_added",
+      "period": "August 2026",
+      "prior": 145000,
+      "change": -3000,
+      "release_date": "2026-09-05",
+      "note": "US nonfarm payrolls added 142,000 jobs in August 2026, below the 12-month average of 185,000 and down from 145,000 in July."
+    },
+    "unemployment_rate": {
+      "source": "BLS",
+      "country": "US",
+      "value": 4.2,
+      "unit": "percent",
+      "period": "August 2026",
+      "prior": 4.1,
+      "change": 0.1,
+      "release_date": "2026-09-05",
+      "note": "US unemployment rate rose to 4.2 percent in August 2026, up from 4.1 percent in July, marking the second consecutive monthly increase."
+    },
+    "ism_manufacturing": {
+      "source": "ISM",
+      "country": "US",
+      "value": 47.8,
+      "unit": "index",
+      "period": "September 2026",
+      "prior": 47.9,
+      "change": -0.1,
+      "release_date": "2026-10-01",
+      "note": "ISM manufacturing index registered 47.8 in September 2026, down 0.1 point from 47.9 in August, the fifth consecutive month below the 50 expansion threshold."
+    },
+    "retail_sales": {
+      "source": "Census Bureau",
+      "country": "US",
+      "value": 0.4,
+      "unit": "percent_mom",
+      "period": "August 2026",
+      "prior": 0.3,
+      "change": 0.1,
+      "release_date": "2026-09-15",
+      "note": "US retail sales rose 0.4 percent month-over-month in August 2026, beating expectations of 0.2 percent and up from 0.3 percent in July."
+    },
+    "consumer_sentiment": {
+      "source": "University of Michigan",
+      "country": "US",
+      "value": 68.5,
+      "unit": "index",
+      "period": "September 2026",
+      "prior": 67.9,
+      "change": 0.6,
+      "release_date": "2026-09-27",
+      "note": "University of Michigan consumer sentiment index rose to 68.5 in September 2026, up from 67.9 in August, the second consecutive monthly increase."
+    },
+    "fed_balance_sheet": {
+      "source": "Federal Reserve H.4.1",
+      "country": "US",
+      "value": 7120000000000,
+      "unit": "usd",
+      "period": "Week ending September 30, 2026",
+      "prior": 7138000000000,
+      "change": -18000000000,
+      "release_date": "2026-10-01",
+      "note": "Federal Reserve balance sheet totaled $7.12 trillion as of the week ending September 30, 2026, down $18 billion from the prior week's $7.138 trillion, continuing the runoff."
+    },
+    "reverse_repo": {
+      "source": "NY Fed",
+      "country": "US",
+      "value": 412000000000,
+      "unit": "usd",
+      "period": "October 1, 2026",
+      "prior": 434000000000,
+      "change": -22000000000,
+      "release_date": "2026-10-01",
+      "note": "The New York Fed's overnight reverse repo facility totaled $412 billion on October 1, 2026, down $22 billion from the prior week's $434 billion, the lowest level since June 2021."
+    },
+    "bis_cross_border_credit": {
+      "source": "BIS",
+      "country": "Global",
+      "value": 1.8,
+      "unit": "percent_yoy",
+      "period": "Q2 2026",
+      "prior": 3.2,
+      "change": -1.4,
+      "release_date": "2026-09-20",
+      "note": "Global cross-border credit grew 1.8 percent year-over-year in Q2 2026, slowing from 3.2 percent in Q1, indicating tighter international lending conditions."
+    },
+    "uk_cpi": {
+      "source": "ONS via DBnomics",
+      "country": "UK",
+      "value": 2.7,
+      "unit": "percent_yoy",
+      "period": "August 2026",
+      "prior": 2.9,
+      "change": -0.2,
+      "release_date": "2026-09-18",
+      "note": "UK CPI rose 2.7 percent year-over-year in August 2026, easing from 2.9 percent in July but remaining above the Bank of England's 2 percent target."
+    }
+  }
+}
