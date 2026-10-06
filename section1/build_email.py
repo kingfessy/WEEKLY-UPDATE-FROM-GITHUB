@@ -43,7 +43,8 @@ def load_json(path):
 
 def parse_narrative(raw):
     result = {"summary": "", "fresh": [], "recent": "", "watch": ""}
-    pattern = r"(##[A-Z]+(?::[a-z_]+)?##)"
+    # FIXED: allow digits in indicator key (e.g. treasury_10y)
+    pattern = r"(##[A-Z]+(?::[a-z0-9_]+)?##)"
     parts = re.split(pattern, raw)
     i = 1
     while i < len(parts):
