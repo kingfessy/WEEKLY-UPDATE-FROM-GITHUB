@@ -17,6 +17,7 @@ PIPELINE = [
     ("Aggregate sources", "aggregate.py"),
     ("Consolidate for LLM", "consolidate.py"),
     ("Write narrative", "ai_writer.py"),
+    ("Build charts", "build_charts.py"),
     ("Build email", "build_email.py"),
 ]
 
