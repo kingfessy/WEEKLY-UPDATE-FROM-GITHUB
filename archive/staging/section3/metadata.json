@@ -1,0 +1,25 @@
+{
+  "section": 3,
+  "section_name": "Liquidity & Credit",
+  "generated_at": "2026-10-07T21:00:51.590550",
+  "subject": "Liquidity Brief: Funding conditions show a mix of modest easing and pockets of tight...",
+  "recipients": [
+    "aderemi4festus@gmail.com"
+  ],
+  "charts": [
+    {
+      "indicator": "rates",
+      "file": "archive/staging/section3/charts\\chart_rates.png",
+      "cid": "chart_rates"
+    },
+    {
+      "indicator": "repo",
+      "file": "archive/staging/section3/charts\\chart_repo.png",
+      "cid": "chart_repo"
+    }
+  ],
+  "summary_stats": {
+    "fresh_count": 6,
+    "charts_embedded": 2
+  }
+}

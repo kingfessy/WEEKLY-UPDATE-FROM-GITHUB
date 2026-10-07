@@ -1,0 +1,26 @@
+{
+  "section": 3,
+  "section_name": "Liquidity & Credit",
+  "period_covered": "Week ending October 07, 2026",
+  "generated_at": "2026-10-07T21:00:49.815111",
+  "narrative": "##SUMMARY##\nFunding conditions show a mix of modest easing and pockets of tightening. Overnight rates are largely steady, with SOFR slipping slightly and DVP Repo nudging up. Total bank credit contracted, hinting at a small pullback in lending. Commercial loan growth and expanding deposits suggest credit is still flowing. Treasury balances fell, while foreign official holdings declined, pointing to reduced external demand. Overall, the market leans toward marginally looser liquidity but retains some pressure points.\n\n##FRESH:sofr##\nSOFR was 3.89 percent on 2026-10-05. The rate fell by 0.01 percentage points from the prior period. The dip points to marginally looser funding conditions.\n\n##FRESH:effr##\nEFFR was 3.88 percent on 2026-10-05. The rate was unchanged from the prior reading. Steady rates imply unchanged funding conditions.\n\n##FRESH:iorb##\nIORB was 3.9 percent on 2026-10-03. The rate held steady from the prior reading. This suggests funding conditions remain flat.\n\n##FRESH:bank_credit_total##\nTotal bank credit stood at $19.86 trillion on 2026-09-23. The figure fell by $25.1 billion from the prior period. The decline signals a slight tightening of credit availability.\n\n##FRESH:commercial_loans##\nCommercial loans reached $2.93 trillion on 2026-08-01. The amount rose by $46.7 billion from the prior period. The increase indicates looser credit conditions for businesses.\n\n##FRESH:dvp_overnight_rate##\nDVP Repo Rate was 3.88 percent on 2026-10-05. The rate rose by 0.02 percentage points from the prior period. The uptick points to marginally tighter funding.\n\n##RECENT##\nTri-Party Repo Rate rose to 3.87 percent, up 0.01 percentage points; US M2 Money Supply increased to $23.34 trillion, up $124.9 billion; Treasury General Account fell to $948.7 billion, down $28.4 billion; Overnight Reverse Repo climbed to $1.0 billion, up $0.2 billion. Large Bank Deposits grew to $19.64 trillion, up $66.3 billion, while Small Bank Deposits rose to $5.67 trillion, up $3.2 billion, and Total Bank Assets expanded to $25.93 trillion, up $142.2 billion, reflecting expanding balance sheets. GCF Repo Rate advanced to 3.94 percent, up 0.03 percentage points, suggesting tighter funding. Foreign Official Treasury Holdings slipped to $3.77 trillion, down $5.0 billion; Japan holdings fell to $1.1 trillion, down $12.7 billion; China holdings dropped to $618.0 billion, down $15.4 billion; UK holdings rose to $998.3 billion, up $58.5 billion, showing mixed foreign demand.\n\n##WATCH##\nWatch the trajectory of overnight repo rates for signs of emerging tightness. Monitor Treasury General Account balances for shifts in government cash management. Keep an eye on foreign official holdings for potential changes in external demand for U.S. debt.",
+  "top_fresh": [
+    "sofr",
+    "effr",
+    "iorb",
+    "bank_credit_total",
+    "commercial_loans",
+    "dvp_overnight_rate"
+  ],
+  "rest_fresh": [
+    "triparty_overnight_rate",
+    "m2_money_supply",
+    "tga_balance",
+    "on_rrp_balance",
+    "large_bank_deposits",
+    "small_bank_deposits",
+    "bank_total_assets"
+  ],
+  "fresh_count": 13,
+  "recent_count": 5
+}
