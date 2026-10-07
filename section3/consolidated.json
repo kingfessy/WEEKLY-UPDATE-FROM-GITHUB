@@ -2,7 +2,7 @@
   "section": 3,
   "section_name": "Liquidity & Credit",
   "period_covered": "Week ending October 07, 2026",
-  "generated_at": "2026-10-07T21:00:40.923354",
+  "generated_at": "2026-10-07T20:11:43.758049",
   "total_indicators": 18,
   "fresh_indicators": [
     "m2_money_supply",
@@ -2702,9 +2702,9 @@
     "dvp_overnight_rate": {
       "display_name": "DVP Repo Rate",
       "unit": "percent",
-      "value": 3.88,
-      "period": "2026-10-05",
-      "prior": 3.86,
+      "value": 3.89,
+      "period": "2026-10-06",
+      "prior": 3.88,
       "source_used": "OFR",
       "series_id": "REPO-DVP_AR_OO-P",
       "history": [
@@ -3699,18 +3699,22 @@
         {
           "date": "2026-10-05",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.89
         }
       ],
-      "note": "DVP Repo Rate rose to 3.88% for 2026-10-05, up 0.02 percentage points from the prior period.",
+      "note": "DVP Repo Rate rose to 3.89% for 2026-10-06, up 0.01 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "dvp_overnight_rate"
     },
     "triparty_overnight_rate": {
       "display_name": "Tri-Party Repo Rate",
       "unit": "percent",
-      "value": 3.87,
-      "period": "2026-10-02",
-      "prior": 3.86,
+      "value": 3.88,
+      "period": "2026-10-05",
+      "prior": 3.87,
       "source_used": "OFR",
       "series_id": "REPO-TRI_AR_OO-P",
       "history": [
@@ -4701,9 +4705,13 @@
         {
           "date": "2026-10-02",
           "value": 3.87
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3.88
         }
       ],
-      "note": "Tri-Party Repo Rate rose to 3.87% for 2026-10-02, up 0.01 percentage points from the prior period.",
+      "note": "Tri-Party Repo Rate rose to 3.88% for 2026-10-05, up 0.01 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "triparty_overnight_rate"
     },
