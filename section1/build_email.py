@@ -43,7 +43,6 @@ def load_json(path):
 
 def parse_narrative(raw):
     result = {"summary": "", "fresh": [], "recent": "", "watch": ""}
-    # FIXED: allow digits in indicator key (e.g. treasury_10y)
     pattern = r"(##[A-Z]+(?::[a-z0-9_]+)?##)"
     parts = re.split(pattern, raw)
     i = 1
@@ -182,11 +181,11 @@ def build_html(narrative, consolidated, manifest):
 def build_subject_line(parsed):
     summary = parsed.get("summary", "").strip()
     if not summary:
-        return "[TEST] Macro Brief"
+        return "Macro Brief"
     first = summary.split(".")[0].strip()
     if len(first) > 70:
         first = first[:67].rstrip() + "..."
-    return "[TEST] Macro Brief: " + first
+    return "Macro Brief: " + first
 
 
 def save_metadata(parsed, manifest):
@@ -202,7 +201,7 @@ def save_metadata(parsed, manifest):
         "section_name": "Macro & Policy",
         "generated_at": datetime.now().isoformat(),
         "subject": subject,
-        "recipients": ["aderemi4festus@gmail.com"],
+        "recipients": ["aderemi4festus@gmail.com", "Rab492@gmail.com"],
         "charts": charts_to_attach,
         "summary_stats": {
             "fresh_count": len(parsed.get("fresh", [])),
@@ -216,6 +215,7 @@ def save_metadata(parsed, manifest):
         json.dump(metadata, f, indent=2)
     print(">>> metadata saved to " + METADATA_PATH)
     print(">>> subject: " + subject)
+    print(">>> recipients: " + str(metadata["recipients"]))
     print(">>> charts to attach: " + str(len(charts_to_attach)))
     return metadata
 
