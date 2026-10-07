@@ -3,7 +3,8 @@ name: Section 3 - Generate (Phase 1)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 14 * * 0'
+    # Thursday 20:30 UTC = Friday 3:30 AM Vietnam time (6 hours before delivery)
+    - cron: '30 20 * * 4'
 
 permissions:
   contents: write

@@ -35,7 +35,6 @@ INDICATOR_DISPLAY_NAMES = {
     "uk_holdings": "UK Treasury Holdings",
 }
 
-# Orange palette
 ORANGE_DARK = "#c2410c"
 ORANGE_MAIN = "#ea580c"
 ORANGE_LIGHT = "#fff7ed"
@@ -101,7 +100,6 @@ def build_html(narrative, consolidated, manifest, chart_categories):
     today = datetime.now().strftime("%B %d, %Y")
     parsed = parse_narrative(narrative.get("narrative", ""))
 
-    # Map each fresh indicator to a category
     indicator_to_category = {
         "sofr": "rates", "effr": "rates", "iorb": "rates",
         "dvp_overnight_rate": "repo", "triparty_overnight_rate": "repo", "gcf_overnight_rate": "repo",
@@ -111,7 +109,6 @@ def build_html(narrative, consolidated, manifest, chart_categories):
         "bank_total_assets": "bank_assets",
     }
 
-    # Track which categories have already had their chart placed
     placed_categories = set()
 
     fresh_html = ""
@@ -124,7 +121,6 @@ def build_html(narrative, consolidated, manifest, chart_categories):
         if period_label:
             meta_line = "<div style='font-size:12px;color:#6b7280;margin:0 0 10px 0;'>" + period_label + "</div>"
 
-        # Decide whether to embed a chart here
         chart_html = ""
         category = indicator_to_category.get(key)
         if category and category in chart_categories and category not in placed_categories:
@@ -225,7 +221,7 @@ def save_metadata(parsed, chart_categories):
         "section_name": "Liquidity & Credit",
         "generated_at": datetime.now().isoformat(),
         "subject": subject,
-        "recipients": ["aderemi4festus@gmail.com"],
+        "recipients": ["aderemi4festus@gmail.com", "Rab492@gmail.com"],
         "charts": charts_to_attach,
         "summary_stats": {
             "fresh_count": len(parsed.get("fresh", [])),
