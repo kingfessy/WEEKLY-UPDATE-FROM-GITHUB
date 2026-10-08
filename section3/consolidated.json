@@ -1,8 +1,8 @@
 {
   "section": 3,
   "section_name": "Liquidity & Credit",
-  "period_covered": "Week ending October 07, 2026",
-  "generated_at": "2026-10-07T20:11:43.758049",
+  "period_covered": "Week ending October 08, 2026",
+  "generated_at": "2026-10-08T20:42:54.543069",
   "total_indicators": 18,
   "fresh_indicators": [
     "m2_money_supply",
@@ -142,9 +142,9 @@
     "tga_balance": {
       "display_name": "Treasury General Account",
       "unit": "billion_usd",
-      "value": 948.674,
-      "period": "2026-09-30",
-      "prior": 977.0840000000001,
+      "value": 880.253,
+      "period": "2026-10-07",
+      "prior": 948.674,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "WTREGEN",
       "history": [
@@ -359,9 +359,13 @@
         {
           "date": "2026-09-30",
           "value": 948.674
+        },
+        {
+          "date": "2026-10-07",
+          "value": 880.253
         }
       ],
-      "note": "Treasury General Account fell to $948.7B for 2026-09-30, down $28.4B from the prior period.",
+      "note": "Treasury General Account fell to $880.3B for 2026-10-07, down $68.4B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "tga_balance"
     },
@@ -735,121 +739,121 @@
       "display_name": "IORB",
       "unit": "percent",
       "value": 3.9,
-      "period": "2026-10-03",
+      "period": "2026-10-04",
       "prior": 3.9,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "IORB",
       "history": [
         {
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "value": 3.65
         },
         {
-          "date": "2026-04-11",
+          "date": "2026-04-12",
           "value": 3.65
         },
         {
-          "date": "2026-04-18",
+          "date": "2026-04-19",
           "value": 3.65
         },
         {
-          "date": "2026-04-25",
+          "date": "2026-04-26",
           "value": 3.65
         },
         {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "value": 3.65
         },
         {
-          "date": "2026-05-09",
+          "date": "2026-05-10",
           "value": 3.65
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "value": 3.65
         },
         {
-          "date": "2026-05-23",
+          "date": "2026-05-24",
           "value": 3.65
         },
         {
-          "date": "2026-05-30",
+          "date": "2026-05-31",
           "value": 3.65
         },
         {
-          "date": "2026-06-06",
+          "date": "2026-06-07",
           "value": 3.65
         },
         {
-          "date": "2026-06-13",
+          "date": "2026-06-14",
           "value": 3.65
         },
         {
-          "date": "2026-06-20",
+          "date": "2026-06-21",
           "value": 3.65
         },
         {
-          "date": "2026-06-27",
+          "date": "2026-06-28",
           "value": 3.65
         },
         {
-          "date": "2026-07-04",
+          "date": "2026-07-05",
           "value": 3.65
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-12",
           "value": 3.65
         },
         {
-          "date": "2026-07-18",
+          "date": "2026-07-19",
           "value": 3.65
         },
         {
-          "date": "2026-07-25",
+          "date": "2026-07-26",
           "value": 3.65
         },
         {
-          "date": "2026-08-01",
+          "date": "2026-08-02",
           "value": 3.65
         },
         {
-          "date": "2026-08-08",
+          "date": "2026-08-09",
           "value": 3.65
         },
         {
-          "date": "2026-08-15",
+          "date": "2026-08-16",
           "value": 3.65
         },
         {
-          "date": "2026-08-22",
+          "date": "2026-08-23",
           "value": 3.65
         },
         {
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "value": 3.65
         },
         {
-          "date": "2026-09-05",
+          "date": "2026-09-06",
           "value": 3.65
         },
         {
-          "date": "2026-09-12",
+          "date": "2026-09-13",
           "value": 3.65
         },
         {
-          "date": "2026-09-19",
+          "date": "2026-09-20",
           "value": 3.9
         },
         {
-          "date": "2026-09-26",
+          "date": "2026-09-27",
           "value": 3.9
         },
         {
-          "date": "2026-10-03",
+          "date": "2026-10-04",
           "value": 3.9
         }
       ],
-      "note": "IORB held at 3.9% for 2026-10-03, unchanged from the prior reading.",
+      "note": "IORB held at 3.9% for 2026-10-04, unchanged from the prior reading.",
       "freshness": "fresh",
       "indicator_key": "iorb"
     },
@@ -2702,16 +2706,12 @@
     "dvp_overnight_rate": {
       "display_name": "DVP Repo Rate",
       "unit": "percent",
-      "value": 3.89,
-      "period": "2026-10-06",
-      "prior": 3.88,
+      "value": 3.88,
+      "period": "2026-10-07",
+      "prior": 3.89,
       "source_used": "OFR",
       "series_id": "REPO-DVP_AR_OO-P",
       "history": [
-        {
-          "date": "2025-10-07",
-          "value": 4.16
-        },
         {
           "date": "2025-10-08",
           "value": 4.14
@@ -3703,25 +3703,25 @@
         {
           "date": "2026-10-06",
           "value": 3.89
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.88
         }
       ],
-      "note": "DVP Repo Rate rose to 3.89% for 2026-10-06, up 0.01 percentage points from the prior period.",
+      "note": "DVP Repo Rate fell to 3.88% for 2026-10-07, down 0.01 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "dvp_overnight_rate"
     },
     "triparty_overnight_rate": {
       "display_name": "Tri-Party Repo Rate",
       "unit": "percent",
-      "value": 3.88,
-      "period": "2026-10-05",
-      "prior": 3.87,
+      "value": 3.89,
+      "period": "2026-10-06",
+      "prior": 3.88,
       "source_used": "OFR",
       "series_id": "REPO-TRI_AR_OO-P",
       "history": [
-        {
-          "date": "2025-10-07",
-          "value": 4.13
-        },
         {
           "date": "2025-10-08",
           "value": 4.1
@@ -4709,9 +4709,13 @@
         {
           "date": "2026-10-05",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-06",
+          "value": 3.89
         }
       ],
-      "note": "Tri-Party Repo Rate rose to 3.88% for 2026-10-05, up 0.01 percentage points from the prior period.",
+      "note": "Tri-Party Repo Rate rose to 3.89% for 2026-10-06, up 0.01 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "triparty_overnight_rate"
     },
