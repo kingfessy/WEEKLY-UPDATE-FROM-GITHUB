@@ -1,8 +1,8 @@
 {
   "section": 1,
   "section_name": "Macro & Policy",
-  "period_covered": "Week ending October 08, 2026",
-  "generated_at": "2026-10-08T14:19:26.503044",
+  "period_covered": "Week ending October 15, 2026",
+  "generated_at": "2026-10-15T14:30:48.251694",
   "total_indicators": 14,
   "fresh_indicators": [
     "reverse_repo"
@@ -36,10 +36,6 @@
       "source_used": "FRED",
       "series_id": "GDPC1",
       "history": [
-        {
-          "date": "2024-07-01",
-          "value": 23501.76
-        },
         {
           "date": "2024-10-01",
           "value": 23641.759
@@ -77,16 +73,12 @@
       "display_name": "US CPI",
       "country": "US",
       "unit": "index",
-      "value": 334.131,
-      "period": "2026-08-01",
-      "prior": 332.813,
+      "value": 336.298,
+      "period": "2026-09-01",
+      "prior": 334.131,
       "source_used": "FRED",
       "series_id": "CPIAUCSL",
       "history": [
-        {
-          "date": "2024-09-01",
-          "value": 314.732
-        },
         {
           "date": "2024-10-01",
           "value": 315.631
@@ -178,9 +170,13 @@
         {
           "date": "2026-08-01",
           "value": 334.131
+        },
+        {
+          "date": "2026-09-01",
+          "value": 336.298
         }
       ],
-      "note": "US CPI rose to 334.13 for 2026-08-01, up 1.32 from the prior period.",
+      "note": "US CPI rose to 336.3 for 2026-09-01, up 2.17 from the prior period.",
       "freshness": "stale",
       "indicator_key": "cpi"
     },
@@ -188,16 +184,12 @@
       "display_name": "US Core CPI",
       "country": "US",
       "unit": "index",
-      "value": 337.765,
-      "period": "2026-08-01",
-      "prior": 336.789,
+      "value": 338.896,
+      "period": "2026-09-01",
+      "prior": 337.765,
       "source_used": "FRED",
       "series_id": "CPILFESL",
       "history": [
-        {
-          "date": "2024-09-01",
-          "value": 320.732
-        },
         {
           "date": "2024-10-01",
           "value": 321.731
@@ -289,9 +281,13 @@
         {
           "date": "2026-08-01",
           "value": 337.765
+        },
+        {
+          "date": "2026-09-01",
+          "value": 338.896
         }
       ],
-      "note": "US Core CPI rose to 337.76 for 2026-08-01, up 0.98 from the prior period.",
+      "note": "US Core CPI rose to 338.9 for 2026-09-01, up 1.13 from the prior period.",
       "freshness": "stale",
       "indicator_key": "core_cpi"
     },
@@ -305,10 +301,6 @@
       "source_used": "FRED",
       "series_id": "PCEPI",
       "history": [
-        {
-          "date": "2024-09-01",
-          "value": 124.146
-        },
         {
           "date": "2024-10-01",
           "value": 124.482
@@ -416,10 +408,6 @@
       "source_used": "FRED",
       "series_id": "PAYEMS",
       "history": [
-        {
-          "date": "2024-09-01",
-          "value": 157912.0
-        },
         {
           "date": "2024-10-01",
           "value": 157945.0
@@ -532,10 +520,6 @@
       "series_id": "UNRATE",
       "history": [
         {
-          "date": "2024-09-01",
-          "value": 4.1
-        },
-        {
           "date": "2024-10-01",
           "value": 4.1
         },
@@ -641,15 +625,11 @@
       "country": "US",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-09-30",
+      "period": "2026-10-07",
       "prior": 3.88,
       "source_used": "FRED",
       "series_id": "DFF",
       "history": [
-        {
-          "date": "2025-10-01",
-          "value": 4.09
-        },
         {
           "date": "2025-10-08",
           "value": 4.1
@@ -857,9 +837,13 @@
         {
           "date": "2026-09-30",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-07",
+          "value": 3.88
         }
       ],
-      "note": "US Fed Funds Rate held at 3.88% for 2026-09-30, unchanged from the prior reading.",
+      "note": "US Fed Funds Rate held at 3.88% for 2026-10-07, unchanged from the prior reading.",
       "freshness": "recent",
       "indicator_key": "fed_funds_rate"
     },
@@ -867,16 +851,12 @@
       "display_name": "US 10Y Treasury Yield",
       "country": "US",
       "unit": "percent",
-      "value": 5.29,
-      "period": "2026-09-30",
-      "prior": 5.11,
+      "value": 5.28,
+      "period": "2026-10-07",
+      "prior": 5.29,
       "source_used": "FRED",
       "series_id": "DGS10",
       "history": [
-        {
-          "date": "2025-10-01",
-          "value": 4.12
-        },
         {
           "date": "2025-10-08",
           "value": 4.13
@@ -1084,9 +1064,13 @@
         {
           "date": "2026-09-30",
           "value": 5.29
+        },
+        {
+          "date": "2026-10-07",
+          "value": 5.28
         }
       ],
-      "note": "US 10Y Treasury Yield rose to 5.29% for 2026-09-30, up 0.18 percentage points from the prior period.",
+      "note": "US 10Y Treasury Yield fell to 5.28% for 2026-10-07, down 0.01 percentage points from the prior period.",
       "freshness": "recent",
       "indicator_key": "treasury_10y"
     },
@@ -1094,16 +1078,12 @@
       "display_name": "Fed Balance Sheet",
       "country": "US",
       "unit": "million_usd",
-      "value": 6743031.0,
-      "period": "2026-09-30",
-      "prior": 6747704.0,
+      "value": 6747560.0,
+      "period": "2026-10-07",
+      "prior": 6743031.0,
       "source_used": "FRED",
       "series_id": "WALCL",
       "history": [
-        {
-          "date": "2024-09-25",
-          "value": 7080059.0
-        },
         {
           "date": "2024-10-02",
           "value": 7046925.0
@@ -1523,9 +1503,13 @@
         {
           "date": "2026-09-30",
           "value": 6743031.0
+        },
+        {
+          "date": "2026-10-07",
+          "value": 6747560.0
         }
       ],
-      "note": "Fed Balance Sheet fell to $6.74T for 2026-09-30, down $4.7B from the prior period.",
+      "note": "Fed Balance Sheet rose to $6.75T for 2026-10-07, up $4.5B from the prior period.",
       "freshness": "recent",
       "indicator_key": "fed_balance_sheet"
     },
@@ -1533,16 +1517,12 @@
       "display_name": "Reverse Repo Facility",
       "country": "US",
       "unit": "billion_usd",
-      "value": 1.004,
-      "period": "2026-10-05",
-      "prior": 0.851,
+      "value": NaN,
+      "period": "2026-10-12",
+      "prior": 1.004,
       "source_used": "FRED",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-04-06",
-          "value": 0.227
-        },
         {
           "date": "2026-04-13",
           "value": 0.227
@@ -1646,9 +1626,13 @@
         {
           "date": "2026-10-05",
           "value": 1.004
+        },
+        {
+          "date": "2026-10-12",
+          "value": NaN
         }
       ],
-      "note": "Reverse Repo Facility rose to $1.0B for 2026-10-05, up $0.2B from the prior period.",
+      "note": "Reverse Repo Facility fell to $nanB for 2026-10-12, down $nanB from the prior period.",
       "freshness": "fresh",
       "indicator_key": "reverse_repo"
     },
@@ -1662,10 +1646,6 @@
       "source_used": "FRED",
       "series_id": "MANEMP",
       "history": [
-        {
-          "date": "2024-09-01",
-          "value": 12758.0
-        },
         {
           "date": "2024-10-01",
           "value": 12697.0

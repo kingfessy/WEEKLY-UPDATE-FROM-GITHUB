@@ -1,0 +1,23 @@
+{
+  "section": 1,
+  "section_name": "Macro & Policy",
+  "generated_at": "2026-10-15T14:30:54.371529",
+  "subject": "Macro Brief: The US Fed Funds Rate was unchanged at 3",
+  "recipients": [
+    "aderemi4festus@gmail.com",
+    "Rab492@gmail.com"
+  ],
+  "charts": [
+    {
+      "indicator": "reverse_repo",
+      "file": "archive/staging/section1/charts/chart_reverse_repo.png",
+      "cid": "chart_reverse_repo"
+    }
+  ],
+  "summary_stats": {
+    "fresh_count": 1,
+    "has_recent": true,
+    "has_watch": true,
+    "charts_embedded": 1
+  }
+}
