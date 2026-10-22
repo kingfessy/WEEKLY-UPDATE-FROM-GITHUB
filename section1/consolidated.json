@@ -1,8 +1,8 @@
 {
   "section": 1,
   "section_name": "Macro & Policy",
-  "period_covered": "Week ending October 15, 2026",
-  "generated_at": "2026-10-15T14:30:48.251694",
+  "period_covered": "Week ending October 22, 2026",
+  "generated_at": "2026-10-22T14:31:39.495721",
   "total_indicators": 14,
   "fresh_indicators": [
     "reverse_repo"
@@ -625,15 +625,11 @@
       "country": "US",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-10-07",
+      "period": "2026-10-14",
       "prior": 3.88,
       "source_used": "FRED",
       "series_id": "DFF",
       "history": [
-        {
-          "date": "2025-10-08",
-          "value": 4.1
-        },
         {
           "date": "2025-10-15",
           "value": 4.1
@@ -841,9 +837,13 @@
         {
           "date": "2026-10-07",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-14",
+          "value": 3.88
         }
       ],
-      "note": "US Fed Funds Rate held at 3.88% for 2026-10-07, unchanged from the prior reading.",
+      "note": "US Fed Funds Rate held at 3.88% for 2026-10-14, unchanged from the prior reading.",
       "freshness": "recent",
       "indicator_key": "fed_funds_rate"
     },
@@ -851,16 +851,12 @@
       "display_name": "US 10Y Treasury Yield",
       "country": "US",
       "unit": "percent",
-      "value": 5.28,
-      "period": "2026-10-07",
-      "prior": 5.29,
+      "value": 5.19,
+      "period": "2026-10-14",
+      "prior": 5.28,
       "source_used": "FRED",
       "series_id": "DGS10",
       "history": [
-        {
-          "date": "2025-10-08",
-          "value": 4.13
-        },
         {
           "date": "2025-10-15",
           "value": 4.05
@@ -1068,9 +1064,13 @@
         {
           "date": "2026-10-07",
           "value": 5.28
+        },
+        {
+          "date": "2026-10-14",
+          "value": 5.19
         }
       ],
-      "note": "US 10Y Treasury Yield fell to 5.28% for 2026-10-07, down 0.01 percentage points from the prior period.",
+      "note": "US 10Y Treasury Yield fell to 5.19% for 2026-10-14, down 0.09 percentage points from the prior period.",
       "freshness": "recent",
       "indicator_key": "treasury_10y"
     },
@@ -1078,16 +1078,12 @@
       "display_name": "Fed Balance Sheet",
       "country": "US",
       "unit": "million_usd",
-      "value": 6747560.0,
-      "period": "2026-10-07",
-      "prior": 6743031.0,
+      "value": 6755639.0,
+      "period": "2026-10-14",
+      "prior": 6747560.0,
       "source_used": "FRED",
       "series_id": "WALCL",
       "history": [
-        {
-          "date": "2024-10-02",
-          "value": 7046925.0
-        },
         {
           "date": "2024-10-09",
           "value": 7046840.0
@@ -1507,9 +1503,13 @@
         {
           "date": "2026-10-07",
           "value": 6747560.0
+        },
+        {
+          "date": "2026-10-14",
+          "value": 6755639.0
         }
       ],
-      "note": "Fed Balance Sheet rose to $6.75T for 2026-10-07, up $4.5B from the prior period.",
+      "note": "Fed Balance Sheet rose to $6.76T for 2026-10-14, up $8.1B from the prior period.",
       "freshness": "recent",
       "indicator_key": "fed_balance_sheet"
     },
@@ -1517,16 +1517,12 @@
       "display_name": "Reverse Repo Facility",
       "country": "US",
       "unit": "billion_usd",
-      "value": NaN,
-      "period": "2026-10-12",
-      "prior": 1.004,
+      "value": 0.33,
+      "period": "2026-10-19",
+      "prior": NaN,
       "source_used": "FRED",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-04-13",
-          "value": 0.227
-        },
         {
           "date": "2026-04-20",
           "value": 0.503
@@ -1630,9 +1626,13 @@
         {
           "date": "2026-10-12",
           "value": NaN
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0.33
         }
       ],
-      "note": "Reverse Repo Facility fell to $nanB for 2026-10-12, down $nanB from the prior period.",
+      "note": "Reverse Repo Facility fell to $0.3B for 2026-10-19, down $nanB from the prior period.",
       "freshness": "fresh",
       "indicator_key": "reverse_repo"
     },
