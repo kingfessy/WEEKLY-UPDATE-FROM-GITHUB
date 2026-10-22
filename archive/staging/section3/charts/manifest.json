@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-22T20:59:10.408634",
+  "generated": [
+    "rates",
+    "repo"
+  ],
+  "top_2": [
+    "rates",
+    "repo"
+  ],
+  "all_categories": [
+    "rates",
+    "repo",
+    "bank_credit",
+    "liquidity",
+    "deposits",
+    "bank_assets"
+  ]
+}
