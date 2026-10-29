@@ -1,8 +1,8 @@
 {
   "section": 1,
   "section_name": "Macro & Policy",
-  "period_covered": "Week ending October 22, 2026",
-  "generated_at": "2026-10-22T14:31:39.495721",
+  "period_covered": "Week ending October 29, 2026",
+  "generated_at": "2026-10-29T19:28:44.333983",
   "total_indicators": 14,
   "fresh_indicators": [
     "reverse_repo"
@@ -30,9 +30,9 @@
       "display_name": "US Real GDP",
       "country": "US",
       "unit": "billion_usd",
-      "value": 24408.011,
-      "period": "2026-04-01",
-      "prior": 24274.383,
+      "value": 24611.077,
+      "period": "2026-07-01",
+      "prior": 24408.011,
       "source_used": "FRED",
       "series_id": "GDPC1",
       "history": [
@@ -63,9 +63,13 @@
         {
           "date": "2026-04-01",
           "value": 24408.011
+        },
+        {
+          "date": "2026-07-01",
+          "value": 24611.077
         }
       ],
-      "note": "US Real GDP rose to $24.41T for 2026-04-01, up $133.6B from the prior period.",
+      "note": "US Real GDP rose to $24.61T for 2026-07-01, up $203.1B from the prior period.",
       "freshness": "stale",
       "indicator_key": "gdp"
     },
@@ -295,9 +299,9 @@
       "display_name": "US PCE Price Index",
       "country": "US",
       "unit": "index",
-      "value": 131.579,
-      "period": "2026-08-01",
-      "prior": 131.172,
+      "value": 132.257,
+      "period": "2026-09-01",
+      "prior": 131.611,
       "source_used": "FRED",
       "series_id": "PCEPI",
       "history": [
@@ -387,14 +391,18 @@
         },
         {
           "date": "2026-07-01",
-          "value": 131.172
+          "value": 131.187
         },
         {
           "date": "2026-08-01",
-          "value": 131.579
+          "value": 131.611
+        },
+        {
+          "date": "2026-09-01",
+          "value": 132.257
         }
       ],
-      "note": "US PCE Price Index rose to 131.58 for 2026-08-01, up 0.41 from the prior period.",
+      "note": "US PCE Price Index rose to 132.26 for 2026-09-01, up 0.65 from the prior period.",
       "freshness": "stale",
       "indicator_key": "pce"
     },
@@ -625,15 +633,11 @@
       "country": "US",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-10-14",
+      "period": "2026-10-21",
       "prior": 3.88,
       "source_used": "FRED",
       "series_id": "DFF",
       "history": [
-        {
-          "date": "2025-10-15",
-          "value": 4.1
-        },
         {
           "date": "2025-10-22",
           "value": 4.11
@@ -841,9 +845,13 @@
         {
           "date": "2026-10-14",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.88
         }
       ],
-      "note": "US Fed Funds Rate held at 3.88% for 2026-10-14, unchanged from the prior reading.",
+      "note": "US Fed Funds Rate held at 3.88% for 2026-10-21, unchanged from the prior reading.",
       "freshness": "recent",
       "indicator_key": "fed_funds_rate"
     },
@@ -851,16 +859,12 @@
       "display_name": "US 10Y Treasury Yield",
       "country": "US",
       "unit": "percent",
-      "value": 5.19,
-      "period": "2026-10-14",
-      "prior": 5.28,
+      "value": 5.13,
+      "period": "2026-10-21",
+      "prior": 5.19,
       "source_used": "FRED",
       "series_id": "DGS10",
       "history": [
-        {
-          "date": "2025-10-15",
-          "value": 4.05
-        },
         {
           "date": "2025-10-22",
           "value": 3.97
@@ -1068,9 +1072,13 @@
         {
           "date": "2026-10-14",
           "value": 5.19
+        },
+        {
+          "date": "2026-10-21",
+          "value": 5.13
         }
       ],
-      "note": "US 10Y Treasury Yield fell to 5.19% for 2026-10-14, down 0.09 percentage points from the prior period.",
+      "note": "US 10Y Treasury Yield fell to 5.13% for 2026-10-21, down 0.06 percentage points from the prior period.",
       "freshness": "recent",
       "indicator_key": "treasury_10y"
     },
@@ -1078,16 +1086,12 @@
       "display_name": "Fed Balance Sheet",
       "country": "US",
       "unit": "million_usd",
-      "value": 6755639.0,
-      "period": "2026-10-14",
-      "prior": 6747560.0,
+      "value": 6753604.0,
+      "period": "2026-10-21",
+      "prior": 6755639.0,
       "source_used": "FRED",
       "series_id": "WALCL",
       "history": [
-        {
-          "date": "2024-10-09",
-          "value": 7046840.0
-        },
         {
           "date": "2024-10-16",
           "value": 7039284.0
@@ -1507,9 +1511,13 @@
         {
           "date": "2026-10-14",
           "value": 6755639.0
+        },
+        {
+          "date": "2026-10-21",
+          "value": 6753604.0
         }
       ],
-      "note": "Fed Balance Sheet rose to $6.76T for 2026-10-14, up $8.1B from the prior period.",
+      "note": "Fed Balance Sheet fell to $6.75T for 2026-10-21, down $2.0B from the prior period.",
       "freshness": "recent",
       "indicator_key": "fed_balance_sheet"
     },
@@ -1517,16 +1525,12 @@
       "display_name": "Reverse Repo Facility",
       "country": "US",
       "unit": "billion_usd",
-      "value": 0.33,
-      "period": "2026-10-19",
-      "prior": NaN,
+      "value": 0.2,
+      "period": "2026-10-26",
+      "prior": 0.33,
       "source_used": "FRED",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-04-20",
-          "value": 0.503
-        },
         {
           "date": "2026-04-27",
           "value": 0.363
@@ -1630,9 +1634,13 @@
         {
           "date": "2026-10-19",
           "value": 0.33
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.2
         }
       ],
-      "note": "Reverse Repo Facility fell to $0.3B for 2026-10-19, down $nanB from the prior period.",
+      "note": "Reverse Repo Facility fell to $0.2B for 2026-10-26, down $0.1B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "reverse_repo"
     },
