@@ -1,10 +1,11 @@
 {
   "section": 3,
   "section_name": "Liquidity & Credit",
-  "period_covered": "Week ending October 22, 2026",
-  "generated_at": "2026-10-22T20:59:04.187866",
+  "period_covered": "Week ending October 30, 2026",
+  "generated_at": "2026-10-30T00:02:24.377422",
   "total_indicators": 18,
   "fresh_indicators": [
+    "m2_money_supply",
     "tga_balance",
     "on_rrp_balance",
     "sofr",
@@ -23,135 +24,129 @@
     "china_holdings",
     "uk_holdings"
   ],
-  "recent_indicators": [
-    "m2_money_supply"
-  ],
+  "recent_indicators": [],
   "stale_indicators": [],
   "unknown_indicators": [],
   "indicators": {
     "m2_money_supply": {
       "display_name": "US M2 Money Supply",
       "unit": "billion_usd",
-      "value": 23342.8,
-      "period": "2026-08-01",
-      "prior": 23217.9,
+      "value": 23413.9,
+      "period": "2026-09-01",
+      "prior": 23300.9,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "M2SL",
       "history": [
         {
           "date": "2024-10-01",
-          "value": 21336.6
+          "value": 21311.1
         },
         {
           "date": "2024-11-01",
-          "value": 21454.7
+          "value": 21429.3
         },
         {
           "date": "2024-12-01",
-          "value": 21487.6
+          "value": 21462.0
         },
         {
           "date": "2025-01-01",
-          "value": 21539.3
+          "value": 21513.6
         },
         {
           "date": "2025-02-01",
-          "value": 21607.2
+          "value": 21581.1
         },
         {
           "date": "2025-03-01",
-          "value": 21684.1
+          "value": 21657.4
         },
         {
           "date": "2025-04-01",
-          "value": 21770.8
+          "value": 21743.3
         },
         {
           "date": "2025-05-01",
-          "value": 21836.1
+          "value": 21808.8
         },
         {
           "date": "2025-06-01",
-          "value": 21942.6
+          "value": 21916.1
         },
         {
           "date": "2025-07-01",
-          "value": 22025.6
+          "value": 21998.1
         },
         {
           "date": "2025-08-01",
-          "value": 22092.6
+          "value": 22065.9
         },
         {
           "date": "2025-09-01",
-          "value": 22176.1
+          "value": 22149.2
         },
         {
           "date": "2025-10-01",
-          "value": 22249.8
+          "value": 22223.1
         },
         {
           "date": "2025-11-01",
-          "value": 22279.8
+          "value": 22253.2
         },
         {
           "date": "2025-12-01",
-          "value": 22355.3
+          "value": 22328.8
         },
         {
           "date": "2026-01-01",
-          "value": 22413.4
+          "value": 22386.6
         },
         {
           "date": "2026-02-01",
-          "value": 22598.7
+          "value": 22572.3
         },
         {
           "date": "2026-03-01",
-          "value": 22640.3
+          "value": 22613.9
         },
         {
           "date": "2026-04-01",
-          "value": 22756.6
+          "value": 22728.0
         },
         {
           "date": "2026-05-01",
-          "value": 23013.7
+          "value": 22980.9
         },
         {
           "date": "2026-06-01",
-          "value": 23114.9
+          "value": 23077.7
         },
         {
           "date": "2026-07-01",
-          "value": 23217.9
+          "value": 23177.4
         },
         {
           "date": "2026-08-01",
-          "value": 23342.8
+          "value": 23300.9
+        },
+        {
+          "date": "2026-09-01",
+          "value": 23413.9
         }
       ],
-      "note": "US M2 Money Supply rose to $23.34T for 2026-08-01, up $124.9B from the prior period.",
-      "freshness": "recent",
+      "note": "US M2 Money Supply rose to $23.41T for 2026-09-01, up $113.0B from the prior period.",
+      "freshness": "fresh",
       "indicator_key": "m2_money_supply"
     },
     "tga_balance": {
       "display_name": "Treasury General Account",
       "unit": "billion_usd",
-      "value": 952.0020000000001,
-      "period": "2026-10-21",
-      "prior": 883.373,
+      "value": 999.727,
+      "period": "2026-10-28",
+      "prior": 952.0020000000001,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "WTREGEN",
       "history": [
-        {
-          "date": "2025-10-15",
-          "value": 809.593
-        },
-        {
-          "date": "2025-10-22",
-          "value": 908.001
-        },
         {
           "date": "2025-10-29",
           "value": 957.99
@@ -359,25 +354,25 @@
         {
           "date": "2026-10-21",
           "value": 952.0020000000001
+        },
+        {
+          "date": "2026-10-28",
+          "value": 999.727
         }
       ],
-      "note": "Treasury General Account rose to $952.0B for 2026-10-21, up $68.6B from the prior period.",
+      "note": "Treasury General Account rose to $999.7B for 2026-10-28, up $47.7B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "tga_balance"
     },
     "on_rrp_balance": {
       "display_name": "Overnight Reverse Repo",
       "unit": "billion_usd",
-      "value": 0.33,
-      "period": "2026-10-19",
-      "prior": NaN,
+      "value": 0.2,
+      "period": "2026-10-26",
+      "prior": 0.33,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-04-20",
-          "value": 0.503
-        },
         {
           "date": "2026-04-27",
           "value": 0.363
@@ -481,25 +476,25 @@
         {
           "date": "2026-10-19",
           "value": 0.33
+        },
+        {
+          "date": "2026-10-26",
+          "value": 0.2
         }
       ],
-      "note": "Overnight Reverse Repo fell to $0.3B for 2026-10-19, down $nanB from the prior period.",
+      "note": "Overnight Reverse Repo fell to $0.2B for 2026-10-26, down $0.1B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "on_rrp_balance"
     },
     "sofr": {
       "display_name": "SOFR",
       "unit": "percent",
-      "value": 3.87,
-      "period": "2026-10-19",
-      "prior": NaN,
+      "value": 3.93,
+      "period": "2026-10-26",
+      "prior": 3.87,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "SOFR",
       "history": [
-        {
-          "date": "2026-04-20",
-          "value": 3.63
-        },
         {
           "date": "2026-04-27",
           "value": 3.66
@@ -603,9 +598,13 @@
         {
           "date": "2026-10-19",
           "value": 3.87
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.93
         }
       ],
-      "note": "SOFR fell to 3.87% for 2026-10-19, down nan percentage points from the prior period.",
+      "note": "SOFR rose to 3.93% for 2026-10-26, up 0.06 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "sofr"
     },
@@ -613,15 +612,11 @@
       "display_name": "EFFR",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-10-19",
-      "prior": NaN,
+      "period": "2026-10-26",
+      "prior": 3.88,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "EFFR",
       "history": [
-        {
-          "date": "2026-04-20",
-          "value": 3.64
-        },
         {
           "date": "2026-04-27",
           "value": 3.64
@@ -725,9 +720,13 @@
         {
           "date": "2026-10-19",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.88
         }
       ],
-      "note": "EFFR fell to 3.88% for 2026-10-19, down nan percentage points from the prior period.",
+      "note": "EFFR held at 3.88% for 2026-10-26, unchanged from the prior reading.",
       "freshness": "fresh",
       "indicator_key": "effr"
     },
@@ -735,137 +734,133 @@
       "display_name": "IORB",
       "unit": "percent",
       "value": 3.9,
-      "period": "2026-10-18",
+      "period": "2026-10-26",
       "prior": 3.9,
       "source_used": "FRED_LIQUIDITY",
       "series_id": "IORB",
       "history": [
         {
-          "date": "2026-04-19",
+          "date": "2026-04-27",
           "value": 3.65
         },
         {
-          "date": "2026-04-26",
+          "date": "2026-05-04",
           "value": 3.65
         },
         {
-          "date": "2026-05-03",
+          "date": "2026-05-11",
           "value": 3.65
         },
         {
-          "date": "2026-05-10",
+          "date": "2026-05-18",
           "value": 3.65
         },
         {
-          "date": "2026-05-17",
+          "date": "2026-05-25",
           "value": 3.65
         },
         {
-          "date": "2026-05-24",
+          "date": "2026-06-01",
           "value": 3.65
         },
         {
-          "date": "2026-05-31",
+          "date": "2026-06-08",
           "value": 3.65
         },
         {
-          "date": "2026-06-07",
+          "date": "2026-06-15",
           "value": 3.65
         },
         {
-          "date": "2026-06-14",
+          "date": "2026-06-22",
           "value": 3.65
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-06-29",
           "value": 3.65
         },
         {
-          "date": "2026-06-28",
+          "date": "2026-07-06",
           "value": 3.65
         },
         {
-          "date": "2026-07-05",
+          "date": "2026-07-13",
           "value": 3.65
         },
         {
-          "date": "2026-07-12",
+          "date": "2026-07-20",
           "value": 3.65
         },
         {
-          "date": "2026-07-19",
+          "date": "2026-07-27",
           "value": 3.65
         },
         {
-          "date": "2026-07-26",
+          "date": "2026-08-03",
           "value": 3.65
         },
         {
-          "date": "2026-08-02",
+          "date": "2026-08-10",
           "value": 3.65
         },
         {
-          "date": "2026-08-09",
+          "date": "2026-08-17",
           "value": 3.65
         },
         {
-          "date": "2026-08-16",
+          "date": "2026-08-24",
           "value": 3.65
         },
         {
-          "date": "2026-08-23",
+          "date": "2026-08-31",
           "value": 3.65
         },
         {
-          "date": "2026-08-30",
+          "date": "2026-09-07",
           "value": 3.65
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-14",
           "value": 3.65
         },
         {
-          "date": "2026-09-13",
-          "value": 3.65
-        },
-        {
-          "date": "2026-09-20",
+          "date": "2026-09-21",
           "value": 3.9
         },
         {
-          "date": "2026-09-27",
+          "date": "2026-09-28",
           "value": 3.9
         },
         {
-          "date": "2026-10-04",
+          "date": "2026-10-05",
           "value": 3.9
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "value": 3.9
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
+          "value": 3.9
+        },
+        {
+          "date": "2026-10-26",
           "value": 3.9
         }
       ],
-      "note": "IORB held at 3.9% for 2026-10-18, unchanged from the prior reading.",
+      "note": "IORB held at 3.9% for 2026-10-26, unchanged from the prior reading.",
       "freshness": "fresh",
       "indicator_key": "iorb"
     },
     "large_bank_deposits": {
       "display_name": "Large Bank Deposits",
       "unit": "billion_usd",
-      "value": 19771.4749,
-      "period": "2026-10-07",
-      "prior": 19694.2186,
+      "value": 19810.3368,
+      "period": "2026-10-14",
+      "prior": 19771.6141,
       "source_used": "FRED_BANKING",
       "series_id": "DPSACBW027SBOG",
       "history": [
-        {
-          "date": "2024-10-09",
-          "value": 17747.4217
-        },
         {
           "date": "2024-10-16",
           "value": 17811.4228
@@ -1224,82 +1219,82 @@
         },
         {
           "date": "2026-07-01",
-          "value": 19436.9629
+          "value": 19436.048
         },
         {
           "date": "2026-07-08",
-          "value": 19367.969
+          "value": 19366.969
         },
         {
           "date": "2026-07-15",
-          "value": 19471.7075
+          "value": 19470.56
         },
         {
           "date": "2026-07-22",
-          "value": 19407.8657
+          "value": 19406.6084
         },
         {
           "date": "2026-07-29",
-          "value": 19369.8311
+          "value": 19368.5592
         },
         {
           "date": "2026-08-05",
-          "value": 19499.3983
+          "value": 19498.6915
         },
         {
           "date": "2026-08-12",
-          "value": 19537.9093
+          "value": 19537.4614
         },
         {
           "date": "2026-08-19",
-          "value": 19537.3371
+          "value": 19537.4019
         },
         {
           "date": "2026-08-26",
-          "value": 19562.4655
+          "value": 19561.3025
         },
         {
           "date": "2026-09-02",
-          "value": 19570.5213
+          "value": 19569.6382
         },
         {
           "date": "2026-09-09",
-          "value": 19661.7742
+          "value": 19661.1488
         },
         {
           "date": "2026-09-16",
-          "value": 19572.1484
+          "value": 19572.157
         },
         {
           "date": "2026-09-23",
-          "value": 19638.3252
+          "value": 19638.2228
         },
         {
           "date": "2026-09-30",
-          "value": 19694.2186
+          "value": 19694.1719
         },
         {
           "date": "2026-10-07",
-          "value": 19771.4749
+          "value": 19771.6141
+        },
+        {
+          "date": "2026-10-14",
+          "value": 19810.3368
         }
       ],
-      "note": "Large Bank Deposits rose to $19.77T for 2026-10-07, up $77.3B from the prior period.",
+      "note": "Large Bank Deposits rose to $19.81T for 2026-10-14, up $38.7B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "large_bank_deposits"
     },
     "small_bank_deposits": {
       "display_name": "Small Bank Deposits",
       "unit": "billion_usd",
-      "value": 5688.2881,
-      "period": "2026-10-07",
-      "prior": 5674.6483,
+      "value": 5695.3555,
+      "period": "2026-10-14",
+      "prior": 5688.4258,
       "source_used": "FRED_BANKING",
       "series_id": "DPSSCBW027SBOG",
       "history": [
-        {
-          "date": "2024-10-09",
-          "value": 5255.5556
-        },
         {
           "date": "2024-10-16",
           "value": 5264.9692
@@ -1658,82 +1653,82 @@
         },
         {
           "date": "2026-07-01",
-          "value": 5655.1783
+          "value": 5654.2631
         },
         {
           "date": "2026-07-08",
-          "value": 5658.952
+          "value": 5657.9499
         },
         {
           "date": "2026-07-15",
-          "value": 5663.3514
+          "value": 5662.2027
         },
         {
           "date": "2026-07-22",
-          "value": 5656.3268
+          "value": 5655.0683
         },
         {
           "date": "2026-07-29",
-          "value": 5652.6335
+          "value": 5651.3594
         },
         {
           "date": "2026-08-05",
-          "value": 5659.939
+          "value": 5659.2322
         },
         {
           "date": "2026-08-12",
-          "value": 5665.3854
+          "value": 5664.9377
         },
         {
           "date": "2026-08-19",
-          "value": 5674.4058
+          "value": 5674.4707
         },
         {
           "date": "2026-08-26",
-          "value": 5666.2086
+          "value": 5665.0453
         },
         {
           "date": "2026-09-02",
-          "value": 5656.9217
+          "value": 5656.039
         },
         {
           "date": "2026-09-09",
-          "value": 5675.0795
+          "value": 5674.4548
         },
         {
           "date": "2026-09-16",
-          "value": 5668.8374
+          "value": 5668.8455
         },
         {
           "date": "2026-09-23",
-          "value": 5671.9081
+          "value": 5671.8049
         },
         {
           "date": "2026-09-30",
-          "value": 5674.6483
+          "value": 5674.6004
         },
         {
           "date": "2026-10-07",
-          "value": 5688.2881
+          "value": 5688.4258
+        },
+        {
+          "date": "2026-10-14",
+          "value": 5695.3555
         }
       ],
-      "note": "Small Bank Deposits rose to $5.69T for 2026-10-07, up $13.6B from the prior period.",
+      "note": "Small Bank Deposits rose to $5.7T for 2026-10-14, up $6.9B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "small_bank_deposits"
     },
     "bank_credit_total": {
       "display_name": "Total Bank Credit",
       "unit": "billion_usd",
-      "value": 19948.5268,
-      "period": "2026-10-07",
-      "prior": 19891.3948,
+      "value": 19995.0659,
+      "period": "2026-10-14",
+      "prior": 19949.4426,
       "source_used": "FRED_BANKING",
       "series_id": "TOTBKCR",
       "history": [
-        {
-          "date": "2024-10-09",
-          "value": 17905.288
-        },
         {
           "date": "2024-10-16",
           "value": 17923.266
@@ -2092,75 +2087,79 @@
         },
         {
           "date": "2026-07-01",
-          "value": 19654.5306
+          "value": 19656.0385
         },
         {
           "date": "2026-07-08",
-          "value": 19680.215
+          "value": 19681.2234
         },
         {
           "date": "2026-07-15",
-          "value": 19773.7869
+          "value": 19774.7734
         },
         {
           "date": "2026-07-22",
-          "value": 19748.4027
+          "value": 19749.4274
         },
         {
           "date": "2026-07-29",
-          "value": 19777.4436
+          "value": 19778.938
         },
         {
           "date": "2026-08-05",
-          "value": 19793.7864
+          "value": 19795.0231
         },
         {
           "date": "2026-08-12",
-          "value": 19804.9277
+          "value": 19806.3302
         },
         {
           "date": "2026-08-19",
-          "value": 19841.2601
+          "value": 19842.8069
         },
         {
           "date": "2026-08-26",
-          "value": 19844.8545
+          "value": 19846.2898
         },
         {
           "date": "2026-09-02",
-          "value": 19847.8279
+          "value": 19849.267
         },
         {
           "date": "2026-09-09",
-          "value": 19881.4545
+          "value": 19882.8804
         },
         {
           "date": "2026-09-16",
-          "value": 19892.7082
+          "value": 19893.9827
         },
         {
           "date": "2026-09-23",
-          "value": 19869.4263
+          "value": 19870.7198
         },
         {
           "date": "2026-09-30",
-          "value": 19891.3948
+          "value": 19892.5233
         },
         {
           "date": "2026-10-07",
-          "value": 19948.5268
+          "value": 19949.4426
+        },
+        {
+          "date": "2026-10-14",
+          "value": 19995.0659
         }
       ],
-      "note": "Total Bank Credit rose to $19.95T for 2026-10-07, up $57.1B from the prior period.",
+      "note": "Total Bank Credit rose to $20.0T for 2026-10-14, up $45.6B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "bank_credit_total"
     },
     "commercial_loans": {
       "display_name": "Commercial Loans",
       "unit": "billion_usd",
-      "value": 2959.4457,
+      "value": 2959.0573,
       "period": "2026-09-01",
-      "prior": 2934.9238,
+      "prior": 2934.4386,
       "source_used": "FRED_BANKING",
       "series_id": "BUSLOANS",
       "history": [
@@ -2246,38 +2245,34 @@
         },
         {
           "date": "2026-06-01",
-          "value": 2897.5836
+          "value": 2897.59
         },
         {
           "date": "2026-07-01",
-          "value": 2888.1875
+          "value": 2888.1507
         },
         {
           "date": "2026-08-01",
-          "value": 2934.9238
+          "value": 2934.4386
         },
         {
           "date": "2026-09-01",
-          "value": 2959.4457
+          "value": 2959.0573
         }
       ],
-      "note": "Commercial Loans rose to $2.96T for 2026-09-01, up $24.5B from the prior period.",
+      "note": "Commercial Loans rose to $2.96T for 2026-09-01, up $24.6B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "commercial_loans"
     },
     "bank_total_assets": {
       "display_name": "Total Bank Assets",
       "unit": "billion_usd",
-      "value": 26100.3308,
-      "period": "2026-10-07",
-      "prior": 26008.6919,
+      "value": 26138.3143,
+      "period": "2026-10-14",
+      "prior": 26100.2519,
       "source_used": "FRED_BANKING",
       "series_id": "TLAACBW027SBOG",
       "history": [
-        {
-          "date": "2024-10-09",
-          "value": 23465.713
-        },
         {
           "date": "2024-10-16",
           "value": 23583.2442
@@ -2636,102 +2631,82 @@
         },
         {
           "date": "2026-07-01",
-          "value": 25641.9056
+          "value": 25641.2562
         },
         {
           "date": "2026-07-08",
-          "value": 25645.3916
+          "value": 25645.3898
         },
         {
           "date": "2026-07-15",
-          "value": 25726.3938
+          "value": 25726.3624
         },
         {
           "date": "2026-07-22",
-          "value": 25698.7143
+          "value": 25698.7629
         },
         {
           "date": "2026-07-29",
-          "value": 25617.546
+          "value": 25617.5257
         },
         {
           "date": "2026-08-05",
-          "value": 25662.2199
+          "value": 25663.6602
         },
         {
           "date": "2026-08-12",
-          "value": 25609.9938
+          "value": 25611.6871
         },
         {
           "date": "2026-08-19",
-          "value": 25666.9462
+          "value": 25666.9671
         },
         {
           "date": "2026-08-26",
-          "value": 25651.5744
+          "value": 25651.5788
         },
         {
           "date": "2026-09-02",
-          "value": 25725.1982
+          "value": 25725.7792
         },
         {
           "date": "2026-09-09",
-          "value": 25819.3108
+          "value": 25819.2712
         },
         {
           "date": "2026-09-16",
-          "value": 25785.5012
+          "value": 25785.3835
         },
         {
           "date": "2026-09-23",
-          "value": 25927.4259
+          "value": 25927.3872
         },
         {
           "date": "2026-09-30",
-          "value": 26008.6919
+          "value": 26008.548
         },
         {
           "date": "2026-10-07",
-          "value": 26100.3308
+          "value": 26100.2519
+        },
+        {
+          "date": "2026-10-14",
+          "value": 26138.3143
         }
       ],
-      "note": "Total Bank Assets rose to $26.1T for 2026-10-07, up $91.6B from the prior period.",
+      "note": "Total Bank Assets rose to $26.14T for 2026-10-14, up $38.1B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "bank_total_assets"
     },
     "dvp_overnight_rate": {
       "display_name": "DVP Repo Rate",
       "unit": "percent",
-      "value": 3.89,
-      "period": "2026-10-21",
-      "prior": 3.89,
+      "value": 3.95,
+      "period": "2026-10-28",
+      "prior": 3.97,
       "source_used": "OFR",
       "series_id": "REPO-DVP_AR_OO-P",
       "history": [
-        {
-          "date": "2025-10-22",
-          "value": 4.22
-        },
-        {
-          "date": "2025-10-23",
-          "value": 4.25
-        },
-        {
-          "date": "2025-10-24",
-          "value": 4.25
-        },
-        {
-          "date": "2025-10-27",
-          "value": 4.28
-        },
-        {
-          "date": "2025-10-28",
-          "value": 4.32
-        },
-        {
-          "date": "2025-10-29",
-          "value": 4.28
-        },
         {
           "date": "2025-10-30",
           "value": 4.04
@@ -3703,45 +3678,41 @@
         {
           "date": "2026-10-21",
           "value": 3.89
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.91
+        },
+        {
+          "date": "2026-10-23",
+          "value": 3.93
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.94
+        },
+        {
+          "date": "2026-10-27",
+          "value": 3.97
+        },
+        {
+          "date": "2026-10-28",
+          "value": 3.95
         }
       ],
-      "note": "DVP Repo Rate held at 3.89% for 2026-10-21, unchanged from the prior reading.",
+      "note": "DVP Repo Rate fell to 3.95% for 2026-10-28, down 0.02 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "dvp_overnight_rate"
     },
     "triparty_overnight_rate": {
       "display_name": "Tri-Party Repo Rate",
       "unit": "percent",
-      "value": 3.87,
-      "period": "2026-10-20",
-      "prior": 3.86,
+      "value": 3.94,
+      "period": "2026-10-27",
+      "prior": 3.92,
       "source_used": "OFR",
       "series_id": "REPO-TRI_AR_OO-P",
       "history": [
-        {
-          "date": "2025-10-22",
-          "value": 4.18
-        },
-        {
-          "date": "2025-10-23",
-          "value": 4.21
-        },
-        {
-          "date": "2025-10-24",
-          "value": 4.21
-        },
-        {
-          "date": "2025-10-27",
-          "value": 4.24
-        },
-        {
-          "date": "2025-10-28",
-          "value": 4.27
-        },
-        {
-          "date": "2025-10-29",
-          "value": 4.24
-        },
         {
           "date": "2025-10-30",
           "value": 4.0
@@ -4709,29 +4680,41 @@
         {
           "date": "2026-10-20",
           "value": 3.87
+        },
+        {
+          "date": "2026-10-21",
+          "value": 3.87
+        },
+        {
+          "date": "2026-10-22",
+          "value": 3.89
+        },
+        {
+          "date": "2026-10-23",
+          "value": 3.91
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.92
+        },
+        {
+          "date": "2026-10-27",
+          "value": 3.94
         }
       ],
-      "note": "Tri-Party Repo Rate rose to 3.87% for 2026-10-20, up 0.01 percentage points from the prior period.",
+      "note": "Tri-Party Repo Rate rose to 3.94% for 2026-10-27, up 0.02 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "triparty_overnight_rate"
     },
     "gcf_overnight_rate": {
       "display_name": "GCF Repo Rate",
       "unit": "percent",
-      "value": 3.91,
-      "period": "2026-10-20",
-      "prior": 3.93,
+      "value": 3.97,
+      "period": "2026-10-26",
+      "prior": 3.91,
       "source_used": "OFR",
       "series_id": "REPO-GCF_AR_OO-P",
       "history": [
-        {
-          "date": "2025-10-22",
-          "value": 4.27
-        },
-        {
-          "date": "2025-10-29",
-          "value": 4.34
-        },
         {
           "date": "2025-10-31",
           "value": 4.21
@@ -5103,9 +5086,13 @@
         {
           "date": "2026-10-20",
           "value": 3.91
+        },
+        {
+          "date": "2026-10-26",
+          "value": 3.97
         }
       ],
-      "note": "GCF Repo Rate fell to 3.91% for 2026-10-20, down 0.02 percentage points from the prior period.",
+      "note": "GCF Repo Rate rose to 3.97% for 2026-10-26, up 0.06 percentage points from the prior period.",
       "freshness": "fresh",
       "indicator_key": "gcf_overnight_rate"
     },
