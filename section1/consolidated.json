@@ -1,8 +1,8 @@
 {
   "section": 1,
   "section_name": "Macro & Policy",
-  "period_covered": "Week ending October 29, 2026",
-  "generated_at": "2026-10-29T19:28:44.333983",
+  "period_covered": "Week ending November 05, 2026",
+  "generated_at": "2026-11-05T20:58:21.606103",
   "total_indicators": 14,
   "fresh_indicators": [
     "reverse_repo"
@@ -633,15 +633,11 @@
       "country": "US",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-10-21",
+      "period": "2026-10-28",
       "prior": 3.88,
       "source_used": "FRED",
       "series_id": "DFF",
       "history": [
-        {
-          "date": "2025-10-22",
-          "value": 4.11
-        },
         {
           "date": "2025-10-29",
           "value": 4.12
@@ -849,9 +845,13 @@
         {
           "date": "2026-10-21",
           "value": 3.88
+        },
+        {
+          "date": "2026-10-28",
+          "value": 3.88
         }
       ],
-      "note": "US Fed Funds Rate held at 3.88% for 2026-10-21, unchanged from the prior reading.",
+      "note": "US Fed Funds Rate held at 3.88% for 2026-10-28, unchanged from the prior reading.",
       "freshness": "recent",
       "indicator_key": "fed_funds_rate"
     },
@@ -859,16 +859,12 @@
       "display_name": "US 10Y Treasury Yield",
       "country": "US",
       "unit": "percent",
-      "value": 5.13,
-      "period": "2026-10-21",
-      "prior": 5.19,
+      "value": 5.05,
+      "period": "2026-10-28",
+      "prior": 5.13,
       "source_used": "FRED",
       "series_id": "DGS10",
       "history": [
-        {
-          "date": "2025-10-22",
-          "value": 3.97
-        },
         {
           "date": "2025-10-29",
           "value": 4.08
@@ -1076,9 +1072,13 @@
         {
           "date": "2026-10-21",
           "value": 5.13
+        },
+        {
+          "date": "2026-10-28",
+          "value": 5.05
         }
       ],
-      "note": "US 10Y Treasury Yield fell to 5.13% for 2026-10-21, down 0.06 percentage points from the prior period.",
+      "note": "US 10Y Treasury Yield fell to 5.05% for 2026-10-28, down 0.08 percentage points from the prior period.",
       "freshness": "recent",
       "indicator_key": "treasury_10y"
     },
@@ -1086,16 +1086,12 @@
       "display_name": "Fed Balance Sheet",
       "country": "US",
       "unit": "million_usd",
-      "value": 6753604.0,
-      "period": "2026-10-21",
-      "prior": 6755639.0,
+      "value": 6745635.0,
+      "period": "2026-10-28",
+      "prior": 6753604.0,
       "source_used": "FRED",
       "series_id": "WALCL",
       "history": [
-        {
-          "date": "2024-10-16",
-          "value": 7039284.0
-        },
         {
           "date": "2024-10-23",
           "value": 7029408.0
@@ -1515,9 +1511,13 @@
         {
           "date": "2026-10-21",
           "value": 6753604.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 6745635.0
         }
       ],
-      "note": "Fed Balance Sheet fell to $6.75T for 2026-10-21, down $2.0B from the prior period.",
+      "note": "Fed Balance Sheet fell to $6.75T for 2026-10-28, down $8.0B from the prior period.",
       "freshness": "recent",
       "indicator_key": "fed_balance_sheet"
     },
@@ -1525,16 +1525,12 @@
       "display_name": "Reverse Repo Facility",
       "country": "US",
       "unit": "billion_usd",
-      "value": 0.2,
-      "period": "2026-10-26",
-      "prior": 0.33,
+      "value": 5.087,
+      "period": "2026-11-02",
+      "prior": 0.2,
       "source_used": "FRED",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-04-27",
-          "value": 0.363
-        },
         {
           "date": "2026-05-04",
           "value": 0.618
@@ -1638,9 +1634,13 @@
         {
           "date": "2026-10-26",
           "value": 0.2
+        },
+        {
+          "date": "2026-11-02",
+          "value": 5.087
         }
       ],
-      "note": "Reverse Repo Facility fell to $0.2B for 2026-10-26, down $0.1B from the prior period.",
+      "note": "Reverse Repo Facility rose to $5.1B for 2026-11-02, up $4.9B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "reverse_repo"
     },
