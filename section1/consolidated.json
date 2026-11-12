@@ -1,14 +1,14 @@
 {
   "section": 1,
   "section_name": "Macro & Policy",
-  "period_covered": "Week ending November 05, 2026",
-  "generated_at": "2026-11-05T20:58:21.606103",
+  "period_covered": "Week ending November 12, 2026",
+  "generated_at": "2026-11-12T21:22:59.742101",
   "total_indicators": 14,
   "fresh_indicators": [
+    "fed_funds_rate",
     "reverse_repo"
   ],
   "recent_indicators": [
-    "fed_funds_rate",
     "treasury_10y",
     "fed_balance_sheet"
   ],
@@ -77,9 +77,9 @@
       "display_name": "US CPI",
       "country": "US",
       "unit": "index",
-      "value": 336.298,
-      "period": "2026-09-01",
-      "prior": 334.131,
+      "value": 337.476,
+      "period": "2026-10-01",
+      "prior": 336.298,
       "source_used": "FRED",
       "series_id": "CPIAUCSL",
       "history": [
@@ -178,9 +178,13 @@
         {
           "date": "2026-09-01",
           "value": 336.298
+        },
+        {
+          "date": "2026-10-01",
+          "value": 337.476
         }
       ],
-      "note": "US CPI rose to 336.3 for 2026-09-01, up 2.17 from the prior period.",
+      "note": "US CPI rose to 337.48 for 2026-10-01, up 1.18 from the prior period.",
       "freshness": "stale",
       "indicator_key": "cpi"
     },
@@ -188,9 +192,9 @@
       "display_name": "US Core CPI",
       "country": "US",
       "unit": "index",
-      "value": 338.896,
-      "period": "2026-09-01",
-      "prior": 337.765,
+      "value": 339.9,
+      "period": "2026-10-01",
+      "prior": 338.896,
       "source_used": "FRED",
       "series_id": "CPILFESL",
       "history": [
@@ -289,9 +293,13 @@
         {
           "date": "2026-09-01",
           "value": 338.896
+        },
+        {
+          "date": "2026-10-01",
+          "value": 339.9
         }
       ],
-      "note": "US Core CPI rose to 338.9 for 2026-09-01, up 1.13 from the prior period.",
+      "note": "US Core CPI rose to 339.9 for 2026-10-01, up 1.0 from the prior period.",
       "freshness": "stale",
       "indicator_key": "core_cpi"
     },
@@ -410,9 +418,9 @@
       "display_name": "US Nonfarm Payrolls",
       "country": "US",
       "unit": "thousand_jobs",
-      "value": 159044.0,
-      "period": "2026-09-01",
-      "prior": 159015.0,
+      "value": 159293.0,
+      "period": "2026-10-01",
+      "prior": 159128.0,
       "source_used": "FRED",
       "series_id": "PAYEMS",
       "history": [
@@ -506,14 +514,18 @@
         },
         {
           "date": "2026-08-01",
-          "value": 159015.0
+          "value": 159068.0
         },
         {
           "date": "2026-09-01",
-          "value": 159044.0
+          "value": 159128.0
+        },
+        {
+          "date": "2026-10-01",
+          "value": 159293.0
         }
       ],
-      "note": "US Nonfarm Payrolls rose to 159.0M jobs for 2026-09-01, up 29K jobs from the prior period.",
+      "note": "US Nonfarm Payrolls rose to 159.3M jobs for 2026-10-01, up 165K jobs from the prior period.",
       "freshness": "stale",
       "indicator_key": "nonfarm_payrolls"
     },
@@ -521,9 +533,9 @@
       "display_name": "US Unemployment Rate",
       "country": "US",
       "unit": "percent",
-      "value": 4.2,
-      "period": "2026-09-01",
-      "prior": 4.1,
+      "value": 4.1,
+      "period": "2026-10-01",
+      "prior": 4.2,
       "source_used": "FRED",
       "series_id": "UNRATE",
       "history": [
@@ -622,9 +634,13 @@
         {
           "date": "2026-09-01",
           "value": 4.2
+        },
+        {
+          "date": "2026-10-01",
+          "value": 4.1
         }
       ],
-      "note": "US Unemployment Rate rose to 4.2% for 2026-09-01, up 0.1 percentage points from the prior period.",
+      "note": "US Unemployment Rate fell to 4.1% for 2026-10-01, down 0.1 percentage points from the prior period.",
       "freshness": "stale",
       "indicator_key": "unemployment_rate"
     },
@@ -633,15 +649,11 @@
       "country": "US",
       "unit": "percent",
       "value": 3.88,
-      "period": "2026-10-28",
+      "period": "2026-11-11",
       "prior": 3.88,
       "source_used": "FRED",
       "series_id": "DFF",
       "history": [
-        {
-          "date": "2025-10-29",
-          "value": 4.12
-        },
         {
           "date": "2025-11-05",
           "value": 3.87
@@ -849,26 +861,30 @@
         {
           "date": "2026-10-28",
           "value": 3.88
+        },
+        {
+          "date": "2026-11-04",
+          "value": 3.88
+        },
+        {
+          "date": "2026-11-11",
+          "value": 3.88
         }
       ],
-      "note": "US Fed Funds Rate held at 3.88% for 2026-10-28, unchanged from the prior reading.",
-      "freshness": "recent",
+      "note": "US Fed Funds Rate held at 3.88% for 2026-11-11, unchanged from the prior reading.",
+      "freshness": "fresh",
       "indicator_key": "fed_funds_rate"
     },
     "treasury_10y": {
       "display_name": "US 10Y Treasury Yield",
       "country": "US",
       "unit": "percent",
-      "value": 5.05,
-      "period": "2026-10-28",
-      "prior": 5.13,
+      "value": 4.9,
+      "period": "2026-11-04",
+      "prior": 5.05,
       "source_used": "FRED",
       "series_id": "DGS10",
       "history": [
-        {
-          "date": "2025-10-29",
-          "value": 4.08
-        },
         {
           "date": "2025-11-05",
           "value": 4.17
@@ -1076,9 +1092,13 @@
         {
           "date": "2026-10-28",
           "value": 5.05
+        },
+        {
+          "date": "2026-11-04",
+          "value": 4.9
         }
       ],
-      "note": "US 10Y Treasury Yield fell to 5.05% for 2026-10-28, down 0.08 percentage points from the prior period.",
+      "note": "US 10Y Treasury Yield fell to 4.9% for 2026-11-04, down 0.15 percentage points from the prior period.",
       "freshness": "recent",
       "indicator_key": "treasury_10y"
     },
@@ -1086,16 +1106,12 @@
       "display_name": "Fed Balance Sheet",
       "country": "US",
       "unit": "million_usd",
-      "value": 6745635.0,
-      "period": "2026-10-28",
-      "prior": 6753604.0,
+      "value": 6748145.0,
+      "period": "2026-11-04",
+      "prior": 6745635.0,
       "source_used": "FRED",
       "series_id": "WALCL",
       "history": [
-        {
-          "date": "2024-10-23",
-          "value": 7029408.0
-        },
         {
           "date": "2024-10-30",
           "value": 7013490.0
@@ -1515,9 +1531,13 @@
         {
           "date": "2026-10-28",
           "value": 6745635.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 6748145.0
         }
       ],
-      "note": "Fed Balance Sheet fell to $6.75T for 2026-10-28, down $8.0B from the prior period.",
+      "note": "Fed Balance Sheet rose to $6.75T for 2026-11-04, up $2.5B from the prior period.",
       "freshness": "recent",
       "indicator_key": "fed_balance_sheet"
     },
@@ -1525,16 +1545,12 @@
       "display_name": "Reverse Repo Facility",
       "country": "US",
       "unit": "billion_usd",
-      "value": 5.087,
-      "period": "2026-11-02",
-      "prior": 0.2,
+      "value": 0.252,
+      "period": "2026-11-09",
+      "prior": 5.087,
       "source_used": "FRED",
       "series_id": "RRPONTSYD",
       "history": [
-        {
-          "date": "2026-05-04",
-          "value": 0.618
-        },
         {
           "date": "2026-05-11",
           "value": 1.133
@@ -1638,9 +1654,13 @@
         {
           "date": "2026-11-02",
           "value": 5.087
+        },
+        {
+          "date": "2026-11-09",
+          "value": 0.252
         }
       ],
-      "note": "Reverse Repo Facility rose to $5.1B for 2026-11-02, up $4.9B from the prior period.",
+      "note": "Reverse Repo Facility fell to $0.3B for 2026-11-09, down $4.8B from the prior period.",
       "freshness": "fresh",
       "indicator_key": "reverse_repo"
     },
@@ -1648,9 +1668,9 @@
       "display_name": "US Manufacturing Employment",
       "country": "US",
       "unit": "thousand_jobs",
-      "value": 12652.0,
-      "period": "2026-09-01",
-      "prior": 12643.0,
+      "value": 12681.0,
+      "period": "2026-10-01",
+      "prior": 12662.0,
       "source_used": "FRED",
       "series_id": "MANEMP",
       "history": [
@@ -1744,14 +1764,18 @@
         },
         {
           "date": "2026-08-01",
-          "value": 12643.0
+          "value": 12649.0
         },
         {
           "date": "2026-09-01",
-          "value": 12652.0
+          "value": 12662.0
+        },
+        {
+          "date": "2026-10-01",
+          "value": 12681.0
         }
       ],
-      "note": "US Manufacturing Employment rose to 12.7M jobs for 2026-09-01, up 9K jobs from the prior period.",
+      "note": "US Manufacturing Employment rose to 12.7M jobs for 2026-10-01, up 19K jobs from the prior period.",
       "freshness": "stale",
       "indicator_key": "manufacturing_employment"
     },

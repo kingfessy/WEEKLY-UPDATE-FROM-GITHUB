@@ -1,0 +1,28 @@
+{
+  "section": 1,
+  "section_name": "Macro & Policy",
+  "generated_at": "2026-11-12T21:23:05.902028",
+  "subject": "Macro Brief: US Fed Funds Rate held steady at 3",
+  "recipients": [
+    "aderemi4festus@gmail.com",
+    "Rab492@gmail.com"
+  ],
+  "charts": [
+    {
+      "indicator": "reverse_repo",
+      "file": "archive/staging/section1/charts/chart_reverse_repo.png",
+      "cid": "chart_reverse_repo"
+    },
+    {
+      "indicator": "fed_funds_rate",
+      "file": "archive/staging/section1/charts/chart_fed_funds_rate.png",
+      "cid": "chart_fed_funds_rate"
+    }
+  ],
+  "summary_stats": {
+    "fresh_count": 2,
+    "has_recent": true,
+    "has_watch": true,
+    "charts_embedded": 2
+  }
+}
