@@ -1,27 +1,25 @@
 {
   "section": 3,
   "section_name": "Liquidity & Credit",
-  "period_covered": "Week ending November 06, 2026",
-  "generated_at": "2026-11-06T01:01:24.876154",
-  "narrative": "##SUMMARY##\nFunding conditions show mixed signals this week. Overnight rates are largely steady with SOFR up to 3.95 percent and EFFR unchanged at 3.88 percent. Repo rates are nudging lower, DVP Repo fell to 3.96 percent while Tri-Party and GCF repos edged higher to 3.95 and 3.99 percent. Total bank credit expanded to $20.01 trillion and commercial loans rose to $2.96 trillion, indicating more lending capacity. At the same time large and small bank deposits slipped and total bank assets contracted, pointing to some pressure on liquidity. Overall the picture is neither clearly tighter nor looser but a balance of modest easing in rates and modest growth in credit.\n\n##FRESH:sofr##\nSOFR rose to 3.95 percent for 2026-11-02, up 0.02 percentage points from the prior period. The increase signals a slight tightening of short-term funding costs. Higher SOFR can make borrowing a bit more expensive.\n\n##FRESH:effr##\nEFFR held at 3.88 percent for 2026-11-02, unchanged from the prior reading. Stability suggests funding conditions are steady at the federal funds level. No immediate pressure from this rate.\n\n##FRESH:iorb##\nIORB held at 3.9 percent for 2026-11-02, unchanged from the prior reading. The unchanged rate indicates no shift in overnight bank funding costs. Conditions remain flat.\n\n##FRESH:bank_credit_total##\nTotal Bank Credit rose to $20.01 trillion for 2026-10-21, up $28.9 billion from the prior period. The rise points to expanding credit supply. This eases funding conditions.\n\n##FRESH:commercial_loans##\nCommercial Loans rose to $2.96 trillion for 2026-09-01, up $24.5 billion from the prior period. The growth shows more corporate borrowing. It suggests looser credit conditions.\n\n##FRESH:dvp_overnight_rate##\nDVP Repo Rate fell to 3.96 percent for 2026-11-04, down 0.02 percentage points from the prior period. The drop indicates a modest easing of repo funding costs. This supports slightly looser liquidity.\n\n##RECENT##\nTri-Party Repo Rate rose to 3.95 percent, up 0.02 points; GCF Repo Rate rose to 3.99 percent, up 0.02 points; M2 Money Supply rose to $23.41 trillion, up $113.0 billion. Treasury General Account fell to $957.2 billion, down $42.6 billion; Overnight Reverse Repo rose to $5.1 billion, up $4.9 billion; Large Bank Deposits fell to $19.77 trillion, down $31.7 billion. Small Bank Deposits fell to $5.69 trillion, down $1.9 billion; Total Bank Assets fell to $26.08 trillion, down $45.9 billion. Foreign Official Treasury Holdings fell to $3.76 trillion, down $17.6 billion; Japan Treasury Holdings fell to $1.07 trillion, down $35.7 billion; China Treasury Holdings fell to $590.7 billion, down $27.3 billion; UK Treasury Holdings rose to $1.01 trillion, up $11.1 billion.\n\n##WATCH##\nWatch for any moves in SOFR and EFFR that could shift short-term funding costs. Monitor bank credit growth against the backdrop of falling deposits and assets. Keep an eye on repo rate trends and Treasury cash balances for signs of liquidity pressure.",
+  "period_covered": "Week ending November 13, 2026",
+  "generated_at": "2026-11-13T01:18:58.828988",
+  "narrative": "##SUMMARY##\nFunding conditions show a hint of easing as benchmark rates drift lower. SOFR slipped by seven basis points while the tri-party repo rate edged down. Total bank credit nudged higher, adding roughly ten billion dollars of new lending. DVP repo rates inched up, offering a small counterbalance. Overall the mix points to marginally looser liquidity in the system.\n\n##FRESH:sofr##\nSOFR slipped to 3.88 percent on 2026-11-09.\nThat is a 0.07 percentage point decline from the prior reading.\nThe drop points to a modest easing of short-term funding pressure.\n\n##FRESH:effr##\nEFFR held at 3.88 percent on 2026-11-09.\nThe rate was unchanged from the previous measurement.\nStability suggests funding costs remain flat for overnight borrowing.\n\n##FRESH:iorb##\nIORB stayed at 3.9 percent on 2026-11-09.\nThere was no change from the prior period.\nThis steadiness indicates no new strain on inter-bank borrowing rates.\n\n##FRESH:bank_credit_total##\nTotal Bank Credit rose to $20.02 trillion on 2026-10-28.\nThat represents an increase of $9.5 billion from the prior period.\nThe growth signals expanding credit availability across the banking sector.\n\n##FRESH:dvp_overnight_rate##\nDVP Repo Rate climbed to 3.91 percent on 2026-11-10.\nThe rise of 0.01 percentage points follows the prior level.\nA higher repo rate hints at a slight tightening of secured funding.\n\n##FRESH:triparty_overnight_rate##\nTri-Party Repo Rate fell to 3.87 percent on 2026-11-09.\nIt declined by 0.01 percentage points from the previous reading.\nThe dip suggests a modest easing of short-term secured funding costs.\n\n##RECENT##\nGCF Repo Rate slipped to 3.93 percent, Treasury General Account fell to $914.4 billion, and Overnight Reverse Repo dropped to $0.3 billion.\nLarge Bank Deposits rose to $19.8 trillion while Small Bank Deposits increased to $5.7 trillion.\nTotal Bank Assets edged down to $26.08 trillion.\nM2 Money Supply grew to $23.41 trillion, Commercial Loans climbed to $2.96 trillion, and foreign official holdings fell to $3.76 trillion.\n\n##WATCH##\nWatch for the next weekly SOFR reading for signs of continued rate movement.\nMonitor foreign official Treasury holdings for further shifts that could affect dollar demand.\nKeep an eye on repo market spreads as they signal evolving liquidity stress.",
   "top_fresh": [
     "sofr",
     "effr",
     "iorb",
     "bank_credit_total",
-    "commercial_loans",
-    "dvp_overnight_rate"
+    "dvp_overnight_rate",
+    "triparty_overnight_rate"
   ],
   "rest_fresh": [
-    "triparty_overnight_rate",
     "gcf_overnight_rate",
-    "m2_money_supply",
     "tga_balance",
     "on_rrp_balance",
     "large_bank_deposits",
     "small_bank_deposits",
     "bank_total_assets"
   ],
-  "fresh_count": 14,
-  "recent_count": 4
+  "fresh_count": 12,
+  "recent_count": 6
 }
